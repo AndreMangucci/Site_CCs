@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../Grupo 6/css/estilo.css" />
+</head>
+
+<header>
+  <header>
+
+    <nav class="menu">
+    <ul>
+
+      <li><a href="../Grupo 6/home.html">Inicio</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="#">Area do Cliente</a>
+        <ul>
+          <li><a href="../Grupo 6/cadastro.html">Cadastre-se</a></li>
+          <li><a href="../Grupo 6/login.html">Login</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Produtos</a>
+        <ul>
+          <li><a href="#">Cozinha</a></li>
+          <li><a href="#">Mesa e Bar</a></li>
+          <li><a href="#">Banheiro</a></li>
+          <li><a href="#">Lavanderia</a></li>
+          <li><a href="#">Eletroportateis</a></li>
+          <li><a href="#">Jardim</a></li>
+          <li><a href="#">Limpeza</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="../Grupo 6/fale_conosco.html">Fale Conosco</a></li>
+
+    </ul>
+
+  </nav>
+      <br><br>
+
+  </header>
+</header>
+<body>
+  <div class="container" >
+      <div class="content">
+
+  <!--FORMULÁRIO DE LOGIN-->
+  <div id="login">
+    <form method="post">
+      <h1>Login</h1>
+      <p>
+        <label for="email_login">Seu e-mail</label>
+        <input id="email_login" name="email_login" type="text" placeholder="contato@htmlecsspro.com" required>
+      </p>
+
+      <p>
+        <label for="senha_login">Sua senha</label>
+        <input id="senha_login" name="senha_login"  type="password" placeholder="Ex: 1234" required>
+      </p>
+
+      <p>
+        <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+        <label for="manterlogado">Manter-me logado</label>
+      </p>
+
+      <p>
+        <input type="submit" value="Login" >
+        <input type="reset" value="Limpar">
+      </p>
+
+      <p class="link">
+        Ainda não tem conta?
+        <a href="../Grupo 6/cadastro.html">Cadastre-se</a>
+      </p>
+    </form>
+  </div>
+
+</body>
+</html>

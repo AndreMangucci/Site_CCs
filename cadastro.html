@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../Grupo 6/css/estilo.css">
+  <script src="cad.js"> </script>
+</head>
+
+<header>
+
+  <nav class="menu">
+  <ul>
+
+    <li><a href="../Grupo 6/home.html">Inicio</a></li>
+    <li><a href="#">Sobre Nós</a></li>
+    <li><a href="#">Area do Cliente</a>
+      <ul>
+        <li><a href="../Grupo 6/cadastro.html">Cadastre-se</a></li>
+        <li><a href="../Grupo 6/login.html">Login</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Produtos</a>
+      <ul>
+        <li><a href="#">Cozinha</a></li>
+        <li><a href="#">Mesa e Bar</a></li>
+        <li><a href="#">Banheiro</a></li>
+        <li><a href="#">Lavanderia</a></li>
+        <li><a href="#">Eletroportateis</a></li>
+        <li><a href="#">Jardim</a></li>
+        <li><a href="#">Limpeza</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Promoções</a></li>
+    <li><a href="../Grupo 6/fale_conosco.html">Fale Conosco</a></li>
+
+  </ul>
+
+</nav>
+    <br><br>
+
+</header>
+
+<body>
+
+  <div class="container" >
+      <div class="content">
+
+        <!--FORMULÁRIO DE CADASTRO-->
+        <div id="cadastro">
+          <form method="post" action="">
+            <h1>Cadastro</h1>
+
+            <p>
+              <label for="nome_cad">Seu nome</label>
+              <input id="nome_cad" name="nome_cad" type="text" placeholder="Ex: André Vieira" required>
+            </p>
+
+            <p>
+              <label for="">Seu CPF </label>
+              <input id = "cpf" name="cpf" type="text" placeholder="Ex: 12345678901" size="12" maxlength="11" minlength="11" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;" required>
+            </p>
+
+            <p>
+              <label for="fender" >Seu endereço</label>
+           		<input id="ender"  name="ender" type="text"placeholder="Ex: Avenida das Flores, 123. Jardim Alvorada"  maxlength="50" size="35" required >
+            </p>
+
+            <p>
+              <label for="email_cad">Seu e-mail</label>
+              <input id="email_cad" name="email_cad" required="required" type="email" placeholder="Ex: andrevieira@gmail.com" required>
+            </p>
+
+            <p>
+              <label for="senha_cad">Sua senha</label>
+              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="Ex: 1234" required>
+            </p>
+
+            <p>
+              <input type="submit" value="Cadastrar">
+              <input type="reset" value="Limpar">
+            </p>
+
+            <p class="link">
+              Já tem conta?
+              <a href="../Grupo 6/login.html"> Ir para Login </a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

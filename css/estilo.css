@@ -1,0 +1,190 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+
+/* Barra de Menu */
+.menu {
+  background-color: #F7F7F7;
+  font-family: 'Arial';
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+
+
+}
+
+.menu ul {
+  list-style: none;
+  position: relative;
+}
+
+.menu ul li {
+  width: 150px;
+  float: left;
+  position:relative;
+  display: list-item;
+}
+
+.menu a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #F7F7F7;
+  color: #066A75;
+}
+
+.menu ul ul {
+  position: absolute;
+  visibility: hidden;
+}
+
+.menu ul li:hover ul {
+  visibility: visible;
+}
+
+.menu a:hover {
+  background-color: #f2f0f0;
+  color: #066A75;
+}
+
+.menu ul ul li {
+  float: none;
+  border-bottom: solid 1px #ccc;
+}
+
+/* Caixa de Cadastro/Login/Fale Conosco */
+.content{
+  width: 500px;
+  top: 50%;
+  margin: 0px auto;
+  position: relative;
+}
+
+/* Cabeçalho dos formulários */
+h1{
+  font-size: 48px;
+  color: #066a75;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h1:after{
+  width: 100%;
+  height: 2px;
+
+}
+
+p{
+  margin-bottom:15px;
+}
+p:first-child{
+  margin: 0px;
+}
+label{
+  color: #405c60;
+  position: relative;
+}
+
+
+/* Placeholder */
+input {
+  outline: none;
+}
+
+textarea{
+  outline: none;
+  width: 100%!important;
+  font-size: 14px;
+  font-family: 'Arial';
+  color: #405c60;
+}
+
+input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #b2b2b2;
+}
+
+/*Estilo do botão submit */
+input[type="submit"]{
+  width: 100%!important;
+  cursor: pointer;
+  background: #3d9db3;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 1px #333;
+
+}
+
+input[type="submit"]:hover{
+  background: #4ab3c6;
+}
+
+/*Estilo do botão reset */
+input[type="reset"]{
+  width: 100%!important;
+  cursor: pointer;
+  background: #3d9db3;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 1px #333;
+
+}
+
+input[type="reset"]:hover{
+  background: #4ab3c6;
+}
+
+/* Links para mudar de um formulário para outro */
+.link{
+  position: absolute;
+  background: #e1eaeb;
+  color: #7f7c7c;
+  left: 0px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  text-align: right;
+  border-top: 1px solid #dbe5e8;
+}
+
+.link a {
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: rgb(29, 162, 193);
+  margin-left: 10px;
+  border: 1px solid #cbd518;
+}
+
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+/* Estilos para para ambos os formulários */
+#cadastro, #login, #fale_conosco{
+  position: absolute;
+  top: 0px;
+  width: 88%;
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: rgb(247, 247, 247);
+  border: 1px solid rgba(147, 184, 189,0.8);
+}

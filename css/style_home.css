@@ -1,0 +1,51 @@
+#navbar {
+  overflow: hidden;
+  background-color: #F7F7F7;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+#carouselExampleIndicators {
+  margin-top: -20px;
+  z-index: 0;
+}
+
+.text-area {
+  padding: 2em;
+  background-color: #F7F7F7;
+}
+
+.nav-link {
+  color: #066A75;
+  font-weight: bold;
+}
+
+.text-example {
+  background-color: #F7F7F7;
+}
+
+.right-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.left-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.text-col {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.text-div {
+  padding: 2em;
+}
