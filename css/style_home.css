@@ -1,5 +1,4 @@
 #navbar {
-  overflow: hidden;
   background-color: #F7F7F7;
   z-index: 1;
   margin-top: 20px;
@@ -48,4 +47,26 @@
 
 .text-div {
   padding: 2em;
+}
+.page-footer{
+  margin-top: 2em;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid #2196F3;
+  color: #2196F3;
+}
+
+.dropdown-menu {
+  z-index: 1;
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  position:relative;
+  z-index:1;
+}
+
+.fa-circle{
+  font-size: 0.3em;
 }
