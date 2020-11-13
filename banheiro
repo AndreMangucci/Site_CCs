@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Produtos Banheiro</title>
+  <link rel="stylesheet" type="text/css"  href="../Grupo 6/css/estilo.css" >
+</head>
+
+<header>
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Sobre Nós</a></li>
+      <li><a href="#">Area do Cliente</a>
+        <ul>
+          <li><a href="../Grupo 6/cadastro.html">Cadastre-se</a></li>
+          <li><a href="../Grupo 6/login.html">Login</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Produtos</a>
+        <ul>
+          <li><a href="#">Cozinha</a></li>
+          <li><a href="#">Mesa e Bar</a></li>
+          <li><a href="../Grupo 6/banheiro.html">Banheiro</a></li>
+          <li><a href="#">Lavanderia</a></li>
+          <li><a href="#">Eletroportateis</a></li>
+          <li><a href="#">Jardim</a></li>
+          <li><a href="#">Limpeza</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="../Grupo 6/fale_conosco.html">Fale Conosco</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+
+  <nav class="banheiro">
+    <ul>
+
+      <li>
+        <img id="kit_banheiro" src="../Grupo 6/imagens/produtos/banheiro/Kit banheiro.webp">
+        <a href="../Grupo 6/Kit_banheiro_inox.html">Kit Banheiro Inox Com Porta Shampoo De Vidro Linha Extra Luxo</a>
+        <br>
+        <a>R$ 85,95</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="kit_banheiro2" src="../Grupo 6/imagens/produtos/banheiro/Kit banheiro2.webp">
+        <a href="../Grupo 6/kit_banheiro_concha.html">Kit Para Banheiro e Lavabo Concha Perolado - 3 Peças Wincy</a>
+        <br>
+        <a>R$ 69,99</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id = "cortina" src="../Grupo 6/imagens/produtos/banheiro/cortina banheiro.webp">
+        <a href="#">Cortina Box Com Ganchos Banheiro Inteira 1,38X1,98 Ibiza</a>
+        <br>
+        <a>R$ 21,84</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="kit_tapete" src="../Grupo 6/imagens/produtos/banheiro/Kit tapete.webp">
+        <a href="#">Kit com 3 peças Banheiro Artesanal Look GERBERA - Rayza</a>
+        <br>
+        <a>R$ 99,52</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="kit_toalhas" src="../Grupo 6/imagens/produtos/banheiro/Kit toalhas.webp">
+        <a href="#">Kit Com 05 Toalhas De Banho Gigante - 75x150cm - LMpeter</a>
+        <br>
+        <a>R$ 121,59</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li><img id="tampa_vaso" src="../Grupo 6/imagens/produtos/banheiro/Tampa vaso.webp">
+        <a href="#">Tampa de Vaso Sanitário Universal Oval Tupan Premium Branco</a>
+        <br>
+        <a>R$ 35,90</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+    </ul>
+  </nav>
+  <nav class="banheiro">
+    <ul>
+      <li>
+        <img id="banheira" src="../Grupo 6/imagens/produtos/banheiro/banheira.webp">
+        <a href="#">Banheira De Bebê Rígida Galzerano Plástico Azul</a>
+        <br>
+        <br>
+        <a>R$ 75,00</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="roupão" src="../Grupo 6/imagens/produtos/banheiro/Roupão.webp">
+        <a href="#">Roupão Velour Adulto com Manga Mickey - Dohler</a>
+        <br>
+        <br>
+        <a>R$ 149,99</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="cesto" src="../Grupo 6/imagens/produtos/banheiro/Cesto.webp">
+        <a href="#">Cesto de Roupas 30x30x50cm Fibra Sintética </a>
+        <br>
+        <br>
+        <a>R$ 269,90</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="suporte escova sanitaria" src="../Grupo 6/imagens/produtos/banheiro/Suporte escova sanitaria.webp">
+        <a href="#">Suporte com Escova Sanitária Verde Menta</a>
+        <br>
+        <br>
+        <a>R$ 42,00</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="escova sanitaria" src="../Grupo 6/imagens/produtos/banheiro/Escova sanitaria.webp">
+        <a href="#">Escova Sanitaria Condor</a>
+        <br>
+        <br>
+        <br>
+        <a>R$ 16,00</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+      <li>
+        <img id="esponja" src="../Grupo 6/imagens/produtos/banheiro/Esponja.webp">
+        <a href="#">Ricca Esponja de Banho 3 unidades</a>
+        <br>
+        <br>
+        <br>
+        <a>R$ 16,00</a>
+        <br>
+        <input type="submit" value="Comprar">
+      </li>
+    </ul>
+  </nav>
+
+
+</body>
+
+</html>
