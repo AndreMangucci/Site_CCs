@@ -59,7 +59,7 @@
   width: 500px;
   top: 50%;
   margin: 0px auto;
-  position: relative;
+
 }
 
 /* Descrição de produtos */
@@ -77,13 +77,10 @@
 
 .Desc_produto ul {
   list-style: none;
-  position: relative;
 }
 
 .Desc_produto ul li {
-
   float: left;
-  position:relative;
   display: list-item;
 }
 
@@ -96,7 +93,6 @@
 }
 
 .Desc_produto ul ul {
-  position: relative;
   visibility: hidden;
 }
 
@@ -116,11 +112,11 @@ h1{
   padding-bottom: 30px;
 }
 
-.banheiro img {
+.produtos img {
   max-width: 150px;
 }
 
-.banheiro {
+.produtos {
   font-family: 'Arial';
   display: flex;
   justify-content: center;
@@ -128,19 +124,17 @@ h1{
   font-weight: bold;
 }
 
-.banheiro ul {
+.produtos ul {
   list-style: none;
-  position: relative;
 }
 
-.banheiro ul li {
+.produtos ul li {
   width: 150px;
   float: left;
-  position:relative;
   display: list-item;
 }
 
-.banheiro a {
+.produtos a {
   padding: 15px;
   display: block;
   text-decoration: none;
@@ -148,16 +142,16 @@ h1{
   color: #066A75;
 }
 
-.banheiro ul ul {
+.produtos ul ul {
   position: absolute;
   visibility: hidden;
 }
 
-.banheiro ul li:hover ul {
+.produtos ul li:hover ul {
   visibility: visible;
 }
 
-.banheiro a:hover {
+.produtos a:hover {
   color: #066A75;
 }
 
@@ -215,7 +209,6 @@ input[type="submit"]{
   border: 1px solid #fff;
   margin-bottom: 10px;
   text-shadow: 0 1px 1px #333;
-
 }
 
 input[type="submit"]:hover{
@@ -243,16 +236,12 @@ input[type="reset"]:hover{
 
 /* Links para mudar de um formulário para outro */
 .link{
-  position: absolute;
   background: #e1eaeb;
   color: #7f7c7c;
-  left: 0px;
-  height: 20px;
-  width: 440px;
-  padding: 17px 30px 20px 30px;
+  width: 316px;
+  padding: 17px 20px 20px 100px;
   font-size: 16px;
-  text-align: right;
-  border-top: 1px solid #dbe5e8;
+  text-align: center;
 }
 
 .link a {
@@ -270,21 +259,17 @@ input[type="reset"]:hover{
   border: 1px solid #4ab3c6;
 }
 #cadastro, #login, #fale_conosco{
-  position: absolute;
   top: 0px;
-  width: 88%;
-  padding: 18px 6% 60px 6%;
-  margin: 0 0 35px 0;
+  padding: 18px 6% 18px 6%;
+  margin: 35px 0 35px 0;
   background: rgb(247, 247, 247);
   border: 1px solid rgba(147, 184, 189,0.8);
 }
 
 #Desc_produto{
-  position: relative;
   top: 0px;
-  width: 88%;
   padding: 18px 6% 18px 6%;
-  margin: 0 0 35px 0;
+  margin: 35px 0 35px 0;
   background: rgb(247, 247, 247);
   border: 1px solid rgba(147, 184, 189,0.8);
 }
