@@ -70,3 +70,21 @@
 .fa-circle{
   font-size: 0.3em;
 }
+
+.caption-carousel{
+  background-color: 	#F7F7F7;
+  color: #066A75;
+  font-size: 1.7em;
+  padding: 0.7em;
+  width: 50%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.caption-placeholder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}

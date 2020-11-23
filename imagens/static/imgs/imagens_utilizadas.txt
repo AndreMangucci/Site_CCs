@@ -1,0 +1,12 @@
+https://pixabay.com/pt/photos/alimentos-cozinha-1839061/
+https://pixabay.com/pt/photos/cozinha-utens%C3%ADlios-de-cozinha-791181/
+https://pixabay.com/pt/photos/talheres-facas-garfos-colheres-377700/
+https://pixabay.com/pt/photos/recep%C3%A7%C3%A3o-de-casamento-banquete-1967373/
+https://pixabay.com/pt/photos/lou%C3%A7as-pratos-talheres-copa-pode-933658/
+https://pixabay.com/pt/photos/copa-ch%C3%A1-cer%C3%A2mica-pote-talheres-3265835/
+https://pixabay.com/pt/photos/piment%C3%A3o-conselho-cozinha-alimentos-2179100/
+
+Specs Carrousel
+	- 1920x768 pixels
+Home
+	- 600x400 pixels
