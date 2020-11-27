@@ -19,3 +19,32 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.bg-img{
+  margin-top: -20px;
+  width: 100%;
+  z-index: 0;
+}
+
+.titulo-categoria{
+  font-family: 'Nunito', sans-serif;
+  font-size: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.products-row{
+  margin-bottom: 30px;
+}
+
+.row-img{
+  padding: 3px;
+}
+
+#logo-menu{
+  width: 150px;
+}
