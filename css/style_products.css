@@ -1,0 +1,21 @@
+.product-card{
+  background-color: aqua;
+}
+
+.product-row{
+  margin : 0px;
+}
+
+.desc-product-row{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.button-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
