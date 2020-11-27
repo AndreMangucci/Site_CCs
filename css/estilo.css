@@ -6,7 +6,6 @@
 
 /* Barra de Menu */
 .menu {
-  background-color: #F7F7F7;
   font-family: 'Arial';
   display: flex;
   justify-content: center;
@@ -71,8 +70,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  font-weight: bold;
-  background-color: #ffffdb;
+
 }
 
 .Desc_produto ul {
@@ -256,7 +254,7 @@ input[type="reset"]:hover{
   background: #f7f7f7;
   border: 1px solid #4ab3c6;
 }
-#cadastro, #login, #fale_conosco{
+#cadastro, #login, #fale_conosco, #sobre_nos{
   top: 0px;
   padding: 18px 6% 18px 6%;
   margin: 35px 0 35px 0;
@@ -270,4 +268,10 @@ input[type="reset"]:hover{
   margin: 35px 0 35px 0;
   background: rgb(247, 247, 247);
   border: 1px solid rgba(147, 184, 189,0.8);
+}
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 28em;
 }
