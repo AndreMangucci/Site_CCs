@@ -72,12 +72,13 @@ function getCookie(nomeCookie){
 function checkCookie(nomeCookie, valorCookie){
     var usuario=getCookie(nomeCookie);
     if(usuario != "" && nomeCookie == "email") {
-		alert("Usuario ja criado, o mesmo dura somente 3 minutos");
+		alert("Usuario ja criado, o mesmo dura somente 10 minutos");
 		return false;
     }
     else {
         if(valorCookie != "") {
             setCookie(nomeCookie, valorCookie, 10);
+            alert("Usuario criado com sucesso, na versão de testes ele somente será armazenado por 10 minutos");
         }
     }
 }
