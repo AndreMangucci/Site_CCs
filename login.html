@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <title>Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../Site_CCs/css/estilo.css" />
+  <link rel="stylesheet" type="text/css" href="../Site_CCs/css/estilo.css">
+  <script src="js/functions_cookie.js"> </script>
 </head>
 
 <body>
@@ -38,7 +39,7 @@
       <div class="content">
 
   <div id="login">
-    <form method="post">
+    <form id="form_login" name="form_login" method="post" onsubmit="return logar()">
       <h1>Login</h1>
       <p>
         <label for="email_login">Seu e-mail</label>

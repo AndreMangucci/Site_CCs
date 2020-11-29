@@ -5,7 +5,7 @@
   <title>Cadastro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="../Site_CCs/css/estilo.css">
-  <script src="../Site_CCs/js/cad.js"> </script>
+  <script src="js/functions_cookie.js"> </script>
 </head>
 
 <body>
@@ -52,12 +52,12 @@
 
         <!--FORMULÁRIO DE CADASTRO-->
         <div id="cadastro">
-          <form method="post" action="">
+          <form name="form_cadastro" method="post" action="login.html" onsubmit="return cadastroDados()">
             <h1>Cadastro</h1>
 
             <p>
               <label for="nome_cad">Seu nome</label>
-              <input id="nome_cad" name="nome_cad" type="text" placeholder="Ex: André Vieira" onkeypress="return /[a-z]/i.test(event.key)" required>
+              <input id="nome_cad" name="nome_cad" type="text" placeholder="Ex: André Vieira" onkeypress="return /[a-z, ]/i.test(event.key)" required>
             </p>
 
             <p>

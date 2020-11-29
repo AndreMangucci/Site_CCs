@@ -8,11 +8,12 @@
         <link type="text/css" href= "../Site_CCs/css/style_minhaconta.css" rel= "stylesheet" />
         <link rel="stylesheet" type="text/css" href="../Site_CCs/css/estilo.css">
         <script src="../Site_CCs/js/functions_minhaconta.js"></script>
+        <script src="../Site_CCs/js/functions_cookie.js"></script>
 		
 		<noscript><i>Javascript necessário</i></noscript>
     </head>
 
-    <body>
+    <body onload="return getDados()">
         <header>
             <div class="container">
                 <nav id="navbar" class="navbar navbar-light" style="background-color: #F7F7F7;">
@@ -82,9 +83,9 @@
                 <div class="visualizador">
                     
                     <div id="dados">
-                        <span id="nome">Nome</span><br>
-                        <span id="email">Email</span><br>
-                        <span id="cpf">CPF</span>
+                        <span id="nome">Nome: </span><br>
+                        <span id="email">E-mail: </span><br>
+                        <span id="cpf">CPF: </span>
                     </div>
                     
                     <div id="pedidos">
