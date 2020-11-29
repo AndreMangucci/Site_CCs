@@ -77,7 +77,7 @@ function checkCookie(nomeCookie, valorCookie){
     }
     else {
         if(valorCookie != "") {
-            setCookie(nomeCookie, valorCookie, 3);
+            setCookie(nomeCookie, valorCookie, 10);
         }
     }
 }
