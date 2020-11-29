@@ -24,6 +24,6 @@ function showItem(x){
         document.getElementById("enderecos").style.display = "block";
     }
     else {
-        alert("Não foi possivel reconhecer o botao")
+        alert("Não foi possivel reconhecer o botao");
     }
 }
