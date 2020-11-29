@@ -37,6 +37,18 @@
 
   <div class="container" >
       <div class="content">
+        
+        <script>
+          var data = new Date();
+          var diasemana = data.getDay();           
+          var dia = data.getDate();
+          var mes = data.getMonth();
+          var ano = data.getFullYear();
+
+          var meses = new Array("Janeiro", "Fevereiro", "Março" , "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro","Outubro", "Novembro", "Dezembro");
+          var semana = new Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado");
+          document.write(semana[diasemana] + " , " + dia + " de " + meses[mes] + " de " + ano + "<br/>");
+        </script>
 
         <!--FORMULÁRIO DE CADASTRO-->
         <div id="cadastro">
