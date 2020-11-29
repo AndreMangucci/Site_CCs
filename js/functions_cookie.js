@@ -34,6 +34,7 @@ function getDados(){
     var nome = getCookie("name");
     var email = getCookie("email");
     var cpf = getCookie("cpf");
+    var ender = getCookie("ender");
     for(var i = 0; i < cpf.length; i++){
         if(i == 3 || i == 7){
             cpf = cpf.slice(0, i) + "." + cpf.slice(i, cpf.length);
@@ -42,9 +43,10 @@ function getDados(){
             cpf = cpf.slice(0, i) + "-" + cpf.slice(i, cpf.length);
         }
     }
-    document.getElementById("nome").innerHTML = "Nome: " + nome;
-    document.getElementById("email").innerHTML = "E-mail: " + email;
-    document.getElementById("cpf").innerHTML = "CPF: " + cpf;
+    document.getElementById("nome").innerHTML = "Nome: " + nome + "<br>";
+    document.getElementById("email").innerHTML = "E-mail: " + email + "<br>";
+    document.getElementById("cpf").innerHTML = "CPF: " + cpf + "<br>";
+    document.getElementById("principal").innerHTML = "Endereço Principal:<br><br> " + ender.toUpperCase();
 }
 
 function setCookie(nomeCookie,valorCookie,tempoCookie) {
