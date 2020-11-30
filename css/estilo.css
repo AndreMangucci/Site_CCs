@@ -275,3 +275,34 @@ input[type="reset"]:hover{
   margin-right: auto;
   width: 28em;
 }
+
+#logo_home {
+  margin-left: auto;
+  margin-right: auto;
+  width: 28em;
+}
+
+#home {
+  margin: auto;
+}
+
+#conteudo {
+  display: table;
+}
+
+#imagem {
+  display: table-cell;
+  float: left;
+  margin-left: 500px;
+
+
+}
+
+#texto {
+  color: #066a75;
+  display: table-cell;
+  float: left;
+  width: 1000px;
+  margin-top: 200px;
+  margin-left: 20px;
+}
